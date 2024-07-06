@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 # data
 
-dataset = load_dataset("huggan/anime-faces", split="train")
+dataset = load_dataset("data/", split="train")
 dataset = dataset.select(range(21551))
 
 ## preprocess
