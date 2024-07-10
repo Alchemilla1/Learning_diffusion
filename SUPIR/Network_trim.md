@@ -7,6 +7,7 @@
 $$
 \operatorname{APo} Z_{c}^{(i)}=\operatorname{APoZ}\left(O_{c}^{(i)}\right)=\frac{\sum_{k}^{N} \sum_{j}^{M} f\left(O_{c, j}^{(i)}(k)=0\right)}{N \times M}
 $$
+
 在VGG-16上描述了这种方法: 在ImageNet数据集上训练, 并计算了每一层的APoZ值. 根据APoZ值进行剪枝. 
 ![](image.png)
 由于一次剪枝太多神经元会降低神经网络的表达能力, 采用迭代的方法.  
